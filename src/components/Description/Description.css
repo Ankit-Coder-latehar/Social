@@ -1,0 +1,129 @@
+.about {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.about h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 3vw;
+}
+
+.about p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+.card:hover{
+    background-color: black;
+    color: #fff;
+    box-shadow: 5px 5px 0 rgb(50, 202, 244);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card img:hover{
+    scale: 1.01;
+}
+
+.card h3 {
+    margin: 20px 0 10px 0;
+    font-size: 1.5rem;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+
+.card1{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.card1:hover{
+    background-color: black;
+    color: #fff;
+    box-shadow: 5px 5px 0 rgb(50, 202, 244);
+}
+
+.card1 img{
+    width: 100%;
+    height: auto;
+}
+
+.card1 img:hover{
+    scale: 1.12;
+}
+.card1 h3{
+    margin: 20px 0 10px 0;
+    font-size: 1.5rem;
+}
+
+.card1 p{
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.card2{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.card2:hover{
+    background-color: black;
+    color: #fff;
+    box-shadow: 5px 5px 0 rgb(50, 202, 244);
+}
+
+.card2 img{
+    width: 100%;
+    height: auto;
+}
+
+.card2 img:hover{
+    scale: 1.12;
+}
+.card2 h3{
+    margin: 20px 0 10px 0;
+    font-size: 1.5rem;
+}
+
+.card2 p{
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+}

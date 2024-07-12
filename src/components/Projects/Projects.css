@@ -1,0 +1,77 @@
+.projects-section {
+    padding: 50px;
+    background-color: #f4f4f4;
+    position: relative;
+  }
+  
+  .projects-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .projects-header h2 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  .view-projects-btn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-projects-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .projects-slider {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .projects-container {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .project-card {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .project-card.active {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .project-card img {
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .arrow {
+    font-size: 2em;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  

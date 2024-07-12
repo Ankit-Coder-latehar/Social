@@ -1,0 +1,36 @@
+.partners {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%); 
+    color: #fff; 
+}
+
+.partners h2 {
+    color: #333; 
+    margin-bottom: 20px;
+}
+
+.partner-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.partner-logo {
+    padding: 10px;
+}
+
+.partner-logo img {
+    max-width: 150px; 
+    height: auto;
+    filter: grayscale(100%); 
+    transition: filter 0.3s ease;
+}
+
+.partner-logo img:hover {
+    filter: grayscale(0); 
+}

@@ -1,0 +1,23 @@
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.card-deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.container h2{
+    text-align: center;
+}
+
+.mission-section{
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #ffffff;
+}
+

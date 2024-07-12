@@ -1,0 +1,33 @@
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #555;
+}
+
+.nav-link svg {
+  margin-right: 0.5rem;
+}
