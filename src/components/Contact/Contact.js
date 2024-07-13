@@ -17,10 +17,10 @@ const ContactForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         emailjs.sendForm(
-            'service_8q0pmeo',
-      'template_k0yhq0s',
+            '//service id',
+      '//template id',
       e.target,
-      'rPTUj4nOHNlBsvy5w'  
+      '//userid'  
         )
             .then((result) => {
                 console.log(result.text);
