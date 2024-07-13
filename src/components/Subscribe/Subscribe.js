@@ -17,10 +17,10 @@ const Subscribe = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      'service_8q0pmeo',
-      'template_k0yhq0s',
+      '//service id',
+      '//template id',
       e.target,
-      'rPTUj4nOHNlBsvy5w'
+      '//user id'
     )
       .then((result) => {
         console.log(result.text);
